@@ -8,4 +8,4 @@ declare const LineSegments2: any;
 declare const LineSegmentsGeometry: any;
 declare const Wireframe: any;
 declare const WireframeGeometry2: any;
-export { OrbitControls as OrbitControls, MapControls as MapControls, GLTFLoader as GLTFLoader, Line2 as Line2, LineGeometry as LineGeometry, LineMaterial as LineMaterial, LineSegments2 as LineSegments2, LineSegmentsGeometry as LineSegmentsGeometry, Wireframe as Wireframe, WireframeGeometry2 as WireframeGeometry2 };
+export { OrbitControls, MapControls, GLTFLoader, Line2, LineGeometry, LineMaterial, LineSegments2, LineSegmentsGeometry, Wireframe, WireframeGeometry2 };

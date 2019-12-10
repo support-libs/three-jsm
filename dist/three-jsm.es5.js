@@ -1,5 +1,5 @@
-var THREE = require('three');
-window.THREE = THREE || {};
+var THREE_JS = require('three');
+window.THREE = THREE_JS || {};
 // Controls
 var controls = require('three/examples/jsm/controls/OrbitControls');
 var OrbitControls = controls.OrbitControls;
