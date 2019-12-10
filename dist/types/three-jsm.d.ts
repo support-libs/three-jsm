@@ -1,4 +1,11 @@
 declare const OrbitControls: any;
 declare const MapControls: any;
 declare const GLTFLoader: any;
-export { OrbitControls, MapControls, GLTFLoader };
+declare const Line2: any;
+declare const LineGeometry: any;
+declare const LineMaterial: any;
+declare const LineSegments2: any;
+declare const LineSegmentsGeometry: any;
+declare const Wireframe: any;
+declare const WireframeGeometry2: any;
+export { OrbitControls, MapControls, GLTFLoader, Line2, LineGeometry, LineMaterial, LineSegments2, LineSegmentsGeometry, Wireframe, WireframeGeometry2 };
