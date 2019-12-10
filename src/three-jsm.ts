@@ -20,14 +20,14 @@ const Wireframe = require('three/examples/jsm/lines/Wireframe').Wireframe;
 const WireframeGeometry2 = require('three/examples/jsm/lines/WireframeGeometry2').WireframeGeometry2;
 
 export {
-  OrbitControls,
-  MapControls,
-  GLTFLoader,
-  Line2,
-  LineGeometry,
-  LineMaterial,
-  LineSegments2,
-  LineSegmentsGeometry,
-  Wireframe,
-  WireframeGeometry2
+  OrbitControls as OrbitControls,
+  MapControls as MapControls,
+  GLTFLoader as GLTFLoader,
+  Line2 as Line2,
+  LineGeometry as LineGeometry,
+  LineMaterial as LineMaterial,
+  LineSegments2 as LineSegments2,
+  LineSegmentsGeometry as LineSegmentsGeometry,
+  Wireframe as Wireframe,
+  WireframeGeometry2 as WireframeGeometry2
 }
