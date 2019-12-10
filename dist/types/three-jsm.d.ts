@@ -1,4 +1,5 @@
-declare const OrbitControls: any;
+declare const controls: any;
+declare const OrbitControls: typeof controls.OrbitControls;
 declare const MapControls: any;
 declare const GLTFLoader: any;
 declare const Line2: any;

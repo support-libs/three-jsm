@@ -4,7 +4,7 @@ window.THREE = THREE_JS || {};
 // Controls
 const controls = require('three/examples/jsm/controls/OrbitControls');
 
-const OrbitControls = controls.OrbitControls;
+const OrbitControls: typeof controls.OrbitControls = controls.OrbitControls;
 const MapControls = controls.MapControls;
 
 // Loaders
