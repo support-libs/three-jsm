@@ -29,4 +29,5 @@ var Wireframe = require('three/examples/jsm/lines/Wireframe').Wireframe;
 exports.Wireframe = Wireframe;
 var WireframeGeometry2 = require('three/examples/jsm/lines/WireframeGeometry2').WireframeGeometry2;
 exports.WireframeGeometry2 = WireframeGeometry2;
+console.log(OrbitControls, MapControls, GLTFLoader, Line2, LineGeometry, LineMaterial, LineSegments2, LineSegmentsGeometry, Wireframe, WireframeGeometry2);
 //# sourceMappingURL=three-jsm.js.map
