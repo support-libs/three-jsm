@@ -1,2 +1,4 @@
+declare const OrbitControls: any;
+declare const MapControls: any;
 declare const GLTFLoader: any;
-export default GLTFLoader;
+export { OrbitControls, MapControls, GLTFLoader };

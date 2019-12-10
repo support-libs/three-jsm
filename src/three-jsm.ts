@@ -2,10 +2,13 @@
 // import "core-js/fn/array.find"
 // ...
 
-const THREE = require('three');
+const THREE = require('three')
 window.THREE = THREE || {}
 
-const GLTFLoader = require('three/examples/jsm/loaders/GLTFLoader');
+const controls = require('three/examples/jsm/controls/OrbitControls')
 
+const OrbitControls = controls.OrbitControls
+const MapControls = controls.MapControls
+const GLTFLoader = require('three/examples/jsm/loaders/GLTFLoader')
 
-export default GLTFLoader;
+export { OrbitControls, MapControls, GLTFLoader }
